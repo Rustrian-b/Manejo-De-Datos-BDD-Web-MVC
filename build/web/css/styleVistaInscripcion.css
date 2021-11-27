@@ -1,0 +1,80 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    height: 100%;
+    font-size: 62.5%;
+    background-color: #006699;
+}
+
+body
+{
+    height: 100%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.imagen
+{
+    width: 50rem;
+}
+
+.boton
+{
+    background-color: skyblue;
+    color: black;
+    font-size: 2.7rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.boton:hover
+{
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+    background-color: #006600;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+h1
+{
+    font-size: 4rem;
+    color: black;    
+}
+
+.subitem
+{
+    font-size: 2rem;
+}
+
+table
+{    
+    width: 75%;
+    border-style: solid;    
+}
+
+th
+{
+    font-size: 2.5rem;
+}
+
+a
+{
+    font-size: 2.5rem;
+    color: black;
+    text-decoration:none;
+}
+
+a:hover
+{
+    font-size: 3rem;
+    color: purple;
+}
