@@ -1,0 +1,79 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    background-color: #666600;
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+.imagen
+{
+    width: 50rem;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+p
+{
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+form
+{
+    text-align: center;
+    padding: 5px;
+}
+
+.respuesta
+{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: #ffff99;
+    color: black;
+}
+
+.respuesta:hover
+{
+    background-color: #33ffcc;
+}
+
+.boton
+{
+    border: 7px;
+    margin: 5px;
+    align-items: center;
+    align-self: center;
+    background-color: #3399ff;
+    padding: 5px;    
+    font-size: 2.5rem;
+    border-radius: 2.5rem;    
+}
+
+.boton:hover
+{
+    color: orange;
+    background-color: black;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    font-size: 2.7rem;
+    cursor: pointer;
+}

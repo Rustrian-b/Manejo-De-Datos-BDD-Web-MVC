@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    height: 100%;
+    font-size: 62.5%;
+    background-color: #666600;
+}
+
+body
+{
+    height: 100%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+a
+{
+    font-size: 2.5rem;
+    color: #990033;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: yellow;
+}
+
+.imagen
+{
+    width: 50rem;
+}
